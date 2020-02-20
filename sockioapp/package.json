@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "electron": "electron main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "express": "^4.17.1",
+    "rtsp-ffmpeg": "0.0.14",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "electron": "^8.0.0"
+  }
+}
